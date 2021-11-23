@@ -3,5 +3,8 @@
 using namespace std;
 
 int main() {
-    cout << "Hola mundo" << endl;
+    string nombre = "";
+    cout << "Ingrese su nombre" << endl;
+    getline(cin, nombre);
+    cout << "Hola " << nombre << endl;
 }
